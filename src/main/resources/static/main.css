@@ -195,11 +195,13 @@ text-transform: uppercase;
 }
 
 #chat-page .chat-message span {
+margin-left: 20px;
 color: #333;
 font-weight: 600;
 }
 #chat-page .chat-message p {
 color: #43464b;
+margin-left: 20px;
 }
 #messageForm .input-group input {
 float: left;
