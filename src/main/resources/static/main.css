@@ -42,9 +42,10 @@ border: 1px solid #c8c8c8;
 margin-bottom: 15px;
 }
 
-input{
+input {
 padding-left: 10px;
 outline: none;
+border-radius: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -77,16 +78,19 @@ cursor: pointer;
 min-height: 38px;
 }
 
-button.default {
-background-color: #e8e8e8;
-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12);
-color: #333;
-}
 
-button.primary {
-background-color: #6db33f;
-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12);
-color: #fff;
+button.send-button{
+        background-color: #25D366;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 15px;
+        font-size: 24px;
+        cursor: pointer;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
 }
 
 button.accent {
